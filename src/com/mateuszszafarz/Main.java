@@ -19,7 +19,7 @@ public class Main {
                     x();
                     break;
                 default:
-                    (new X()).x(x); // print times table
+                    (new X(x)).x(); // print times table
             }
         } while (x != 0);
     }

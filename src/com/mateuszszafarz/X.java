@@ -2,9 +2,14 @@ package com.mateuszszafarz;
 
 public class X {
     private int x;
-    public void x(int x) {
-        for(this.x = 1; this.x <= 10; this.x++) {
-            System.out.println(String.format("%d times %d = %d", this.x, x, this.x * x));
+
+    public X(int x) {
+        this.x = x;
+    }
+
+    public void x() {
+        for (int x = 1; x <= 10; x++) {
+            System.out.println(String.format("%d times %d = %d", x, this.x, this.x * x));
         }
         System.out.println();
     }
